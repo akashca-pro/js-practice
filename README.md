@@ -205,3 +205,9 @@ node 01-core-fundamentals/closure.js
 - Modern ES6+ features
 - Design patterns
 - Performance optimization
+
+---
+
+## Author
+
+**Akash CA** - [@akashca-pro](https://github.com/akashca-pro)
