@@ -134,12 +134,12 @@ Common JavaScript design patterns.
 ES6+ features and modern JavaScript.
 
 | File                                      | Description                            |
-| ----------------------------------------- | -------------------------------------- | --- | --------------------- |
+| ----------------------------------------- | -------------------------------------- |
 | `moduleSystems.js`                        | ES Modules vs CommonJS                 |
 | `dynamicImports.js`                       | Lazy loading and code splitting        |
 | `treeShakingAndDeadCodeElimination.js`    | Bundle optimization                    |
 | `nullishCoalescingAndOptionalChaining.js` | ??, ?. operators                       |
-| `logicalAssignmentOperators.js`           |                                        |     | =, &&=, ??= operators |
+| `logicalAssignmentOperators.js`           | \|\|=, &&=, ??= operators              |
 | `templateLiterals.js`                     | String interpolation, tagged templates |
 | `es2023PlusFeatures.js`                   | Recent JS additions                    |
 
