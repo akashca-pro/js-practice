@@ -46,6 +46,30 @@ console.log('2. Sync');
 // 3. MACROTASKS VS MICROTASKS
 // -------------------------------------------------------------------------------------------
 
+// Below is an example for mutaionObserver
+
+// const callback = (mutationList, observer) => {
+//   for (const mutation of mutationList) {
+//     if (mutation.type === 'childList') {
+//       console.log('A child node has been added or removed.');
+//     } else if (mutation.type === 'attributes') {
+//       console.log(`The ${mutation.attributeName} attribute was modified.`);
+//     }
+//   }
+// };
+
+// const observer = new MutationObserver(callback);
+// const targetNode = document.getElementById('my-element');
+// const config = { 
+//   attributes: true, 
+//   childList: true, 
+//   subtree: true,
+//   attributeOldValue: true 
+// };
+
+// observer.observe();
+// observer.disconnect();
+
 /**
  * MACROTASKS (Task Queue):
  * - setTimeout, setInterval
