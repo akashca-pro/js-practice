@@ -20,6 +20,7 @@ Core JavaScript concepts and how the language works internally.
 | `typeofAndInstanceof.js`             | Type checking operators and alternatives              |
 | `thisContext.js`                     | How `this` works in different contexts                |
 | `eventLoopAndTaskQueues.js`          | Event loop, microtasks, macrotasks                    |
+| `errorTypes.js`                      | Error types, custom errors, error cause chaining      |
 
 ---
 
@@ -113,6 +114,7 @@ Browser APIs and DOM manipulation.
 | `serviceWorkersAndCaching.js`                | SW lifecycle, caching strategies   |
 | `webStreamsAPI.js`                           | ReadableStream, WritableStream     |
 | `timers.js`                                  | setTimeout, setInterval, RAF       |
+| `storageAPIs.js`                             | localStorage, IndexedDB, Cache API |
 
 ---
 
@@ -120,12 +122,16 @@ Browser APIs and DOM manipulation.
 
 Common JavaScript design patterns.
 
-| File                         | Description                         |
-| ---------------------------- | ----------------------------------- |
-| `designPatternsSingleton.js` | Singleton pattern implementations   |
-| `designPatternsFactory.js`   | Factory patterns (simple, abstract) |
-| `designPatternsObserver.js`  | Observer, EventEmitter, Pub/Sub     |
-| `designPatternsModule.js`    | Module pattern, namespacing         |
+| File                         | Description                          |
+| ---------------------------- | ------------------------------------ |
+| `designPatternsSingleton.js` | Singleton pattern implementations    |
+| `designPatternsFactory.js`   | Factory patterns (simple, abstract)  |
+| `designPatternsObserver.js`  | Observer, EventEmitter, Pub/Sub      |
+| `designPatternsModule.js`    | Module pattern, namespacing          |
+| `designPatternsStrategy.js`  | Strategy pattern, algorithm swapping |
+| `designPatternsDecorator.js` | Decorator pattern, function wrapping |
+| `designPatternsCommand.js`   | Command pattern, undo/redo, queues   |
+| `designPatternsBuilder.js`   | Builder pattern, fluent interfaces   |
 
 ---
 
@@ -149,12 +155,14 @@ ES6+ features and modern JavaScript.
 
 Performance patterns and memory management.
 
-| File                         | Description                     |
-| ---------------------------- | ------------------------------- |
-| `memoization.js`             | Caching function results        |
-| `debouncingAndThrottling.js` | Rate limiting patterns          |
-| `garbageCollection.js`       | How GC works in JavaScript      |
-| `memoryLeaksAndProfiling.js` | Finding and fixing memory leaks |
+| File                         | Description                       |
+| ---------------------------- | --------------------------------- |
+| `memoization.js`             | Caching function results          |
+| `debouncingAndThrottling.js` | Rate limiting patterns            |
+| `garbageCollection.js`       | How GC works in JavaScript        |
+| `memoryLeaksAndProfiling.js` | Finding and fixing memory leaks   |
+| `lazyLoadingPatterns.js`     | Lazy evaluation and loading       |
+| `performanceAPIs.js`         | Performance timing and monitoring |
 
 ---
 
@@ -196,14 +204,14 @@ node 01-core-fundamentals/closure.js
 
 ## Topics Covered
 
-- 78 comprehensive reference files
-- Core JS internals (execution context, closures, this)
+- 86 comprehensive reference files
+- Core JS internals (execution context, closures, this, error types)
 - Async programming (Promises, async/await, generators)
 - OOP and prototypes
 - Functional programming patterns
-- DOM and Browser APIs
+- DOM and Browser APIs (including Storage APIs)
 - Modern ES6+ features
-- Design patterns
+- Design patterns (8 patterns covered)
 - Performance optimization
 
 ---
