@@ -21,6 +21,7 @@ Core JavaScript concepts and how the language works internally.
 | `thisContext.js`                     | How `this` works in different contexts                |
 | `eventLoopAndTaskQueues.js`          | Event loop, microtasks, macrotasks                    |
 | `errorTypes.js`                      | Error types, custom errors, error cause chaining      |
+| `shadowing.js`                       | Variable shadowing, scope, illegal shadowing          |
 
 ---
 
